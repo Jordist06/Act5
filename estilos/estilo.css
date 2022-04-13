@@ -1,0 +1,103 @@
+:root{
+    --color-valen: #F9E79F;
+    --color-mates: #A9DFBF;
+    --color-historia: #ffff33;
+    --color-IAEE: #beff33 ;
+    --color-EF: #33ff52;
+    --color-Tecno:#33ffb8;
+    --color-Castellano:#33fff0;
+    --color-Valores: #33c7ff ;
+    --color-Ingles: #3383ff ;
+    --color-Informatica: #9333ff ;
+    --color-Cultura: #ff059b;
+    --color-Tutoria:  #c42a2a;
+    --color-Horario: #FFC300;
+    --color-Patio: #fa4308;
+    --color-hora:  #f3fa08 ;
+    --color-si: #08fa38  ;
+}
+
+.valen{
+    /* Utilizo el color que he creado antes (--color-1eso) */
+    background-color: var(--color-valen);
+    width: 50px;
+}
+
+.mates{
+    /* Utilizo el color que he creado antes (--color-2eso) */
+    background-color: var(--color-mates);
+    width: 50px;
+}
+
+.historia{
+    /* Utilizo el color que he creado antes (--color-1eso) */
+    background-color: var(--color-historia) ;
+    width: 50px;
+}
+
+.IAEE{
+    background-color: var(--color-IAEE);
+    width: 50px;
+}
+.Horario{
+    background-color: var(--color-Horario);
+    width: 50px;
+}    
+.Tutoria{
+    background-color: var(--color-Tutoria);
+    width: 50px;
+}
+.EF{
+    background-color: var(--color-EF);
+    width: 50px;
+}
+.Tecno{
+    background-color: var(--color-Tecno);
+    width: 50px;
+}
+.Castellano{
+    background-color: var(--color-Castellano);
+    width: 50px;
+}
+.Valores{
+    background-color: var(--color-Valores);
+    width: 50px;
+}
+.Ingles{
+    background-color: var(--color-Ingles);
+    width: 50px;
+}
+.Informatica{
+    background-color: var(--color-Informatica);
+    width: 50px;
+}
+.Cultura{
+    background-color: var(--color-Cultura);
+    width: 50px;
+}
+.hora{
+    background-color: var(--color-hora);
+    width: 50px;
+}
+.Patio{
+    background-color: var(--color-Patio);
+    width: 50px;
+}
+.si{
+    background-color: var(--color-si);
+    width: 50px;
+}
+.tabla-horario{
+    border-collapse: collapse;
+}
+
+.tabla-horario th{
+    /* Especifico el borde de las celdas, para la tabla con clase "tabla-horario" */
+    border: 1px solid black;
+}
+.tabla-horario td{
+    /* Especifico el borde de las celdas, para la tabla con clase "tabla-horario" */
+    border: 1px solid black;
+}
+
+    
